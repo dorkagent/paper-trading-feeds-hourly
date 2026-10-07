@@ -1,0 +1,90 @@
+{
+  "fetched_at_utc": "2026-10-07T18:54:32+00:00",
+  "note": "Context layer - informs, never triggers trades alone.",
+  "sources": {
+    "hyperliquid": "live (metaAndAssetCtxs + fundingHistory)",
+    "binance": "via CoinGecko keyless /derivatives (fapi.binance.com is HTTP-451 geo-blocked from this network; /futures/data/* ratios dropped)",
+    "okx": "live public funding-rate (corroborating venue)"
+  },
+  "errors": [],
+  "coins": {
+    "BTC": {
+      "venues": {
+        "hyperliquid": {
+          "funding_8h_pct": 0.01,
+          "open_interest_coins": 39696.96856,
+          "mark_px_usd": 83461.0,
+          "funding_trend_48h": {
+            "avg_8h_pct": 0.01,
+            "rising": false
+          }
+        },
+        "binance_via_coingecko": {
+          "funding_8h_pct": -0.000644,
+          "open_interest_usd": 7959749550.82,
+          "volume_24h_usd": 13715656791.056099,
+          "last_traded_at": 1791398765
+        },
+        "okx": {
+          "funding_8h_pct": 0.0025057770007,
+          "funding_time": "1791417600000"
+        }
+      },
+      "flags": [
+        "NEUTRAL"
+      ]
+    },
+    "ETH": {
+      "venues": {
+        "hyperliquid": {
+          "funding_8h_pct": 0.01,
+          "open_interest_coins": 1193909.2054,
+          "mark_px_usd": 2564.3,
+          "funding_trend_48h": {
+            "avg_8h_pct": 0.009389769999999999,
+            "rising": false
+          }
+        },
+        "binance_via_coingecko": {
+          "funding_8h_pct": 0.000406,
+          "open_interest_usd": 6182599415.62,
+          "volume_24h_usd": 10807128566.204437,
+          "last_traded_at": 1791398765
+        },
+        "okx": {
+          "funding_8h_pct": 0.00522391030356,
+          "funding_time": "1791417600000"
+        }
+      },
+      "flags": [
+        "NEUTRAL"
+      ]
+    },
+    "SOL": {
+      "venues": {
+        "hyperliquid": {
+          "funding_8h_pct": 0.01,
+          "open_interest_coins": 5750368.980000001,
+          "mark_px_usd": 116.266,
+          "funding_trend_48h": {
+            "avg_8h_pct": 0.008835956666666665,
+            "rising": false
+          }
+        },
+        "binance_via_coingecko": {
+          "funding_8h_pct": -0.002168,
+          "open_interest_usd": 992236298.92,
+          "volume_24h_usd": 2139841112.014119,
+          "last_traded_at": 1791398765
+        },
+        "okx": {
+          "funding_8h_pct": -0.00176078663267,
+          "funding_time": "1791417600000"
+        }
+      },
+      "flags": [
+        "NEUTRAL"
+      ]
+    }
+  }
+}
