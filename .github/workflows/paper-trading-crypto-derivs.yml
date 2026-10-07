@@ -23,5 +23,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add hidden_files/crypto-derivs/
+          git pull --rebase || true
           git diff --cached --quiet || git commit -m "paper-trading-crypto-derivs $(date -u +%F\ %H:%M)"
           git push
