@@ -1,0 +1,27 @@
+name: paper-trading-stocktwits
+on:
+  schedule:
+    - cron: '37 * * * *'  # hourly at :37 UTC
+  workflow_dispatch:  # manual trigger
+permissions:
+  contents: write
+jobs:
+  feed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install requests
+      - name: Run feed script
+        run: python3 scripts/stocktwits-sentiment.py
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add hidden_files/stocktwits/
+          git diff --cached --quiet || git commit -m "paper-trading-stocktwits $(date -u +%F\ %H:%M)"
+          git push
