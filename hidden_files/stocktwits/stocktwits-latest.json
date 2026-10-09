@@ -1,73 +1,85 @@
 {
-  "as_of_utc": "2026-10-09T13:53:35+00:00",
+  "as_of_utc": "2026-10-09T14:54:57+00:00",
   "feed": "stocktwits_symbol_stream",
   "tickers": {
     "SPY": {
       "ticker": "SPY",
-      "as_of_utc": "2026-10-09T13:53:35+00:00",
+      "as_of_utc": "2026-10-09T14:54:57+00:00",
       "n_messages": 30,
-      "n_bullish": 5,
-      "n_bearish": 8,
-      "n_tagged": 13,
-      "bull_pct": 0.385,
-      "bear_pct": 0.615,
+      "n_bullish": 10,
+      "n_bearish": 1,
+      "n_tagged": 11,
+      "bull_pct": 0.909,
+      "bear_pct": 0.091,
       "low_sample": false,
-      "flags": []
+      "flags": [
+        "extreme_bullish_contrarian_caution"
+      ]
     },
     "QQQ": {
       "ticker": "QQQ",
-      "as_of_utc": "2026-10-09T13:53:35+00:00",
+      "as_of_utc": "2026-10-09T14:54:57+00:00",
       "n_messages": 30,
-      "n_bullish": 7,
-      "n_bearish": 3,
-      "n_tagged": 10,
-      "bull_pct": 0.7,
-      "bear_pct": 0.3,
+      "n_bullish": 15,
+      "n_bearish": 1,
+      "n_tagged": 16,
+      "bull_pct": 0.938,
+      "bear_pct": 0.062,
       "low_sample": false,
-      "flags": []
+      "flags": [
+        "extreme_bullish_contrarian_caution"
+      ]
     },
     "NVDA": {
       "ticker": "NVDA",
-      "as_of_utc": "2026-10-09T13:53:35+00:00",
-      "n_messages": 30,
-      "n_bullish": 7,
-      "n_bearish": 4,
-      "n_tagged": 11,
-      "bull_pct": 0.636,
-      "bear_pct": 0.364,
-      "low_sample": false,
-      "flags": []
+      "as_of_utc": "2026-10-09T14:54:57+00:00",
+      "n_messages": 0,
+      "n_bullish": 0,
+      "n_bearish": 0,
+      "n_tagged": 0,
+      "bull_pct": null,
+      "bear_pct": null,
+      "low_sample": true,
+      "flags": [],
+      "error": "500 Server Error: Internal Server Error for url: https://api.stocktwits.com/api/2/streams/symbol/NVDA.json"
     },
     "AAPL": {
       "ticker": "AAPL",
-      "as_of_utc": "2026-10-09T13:53:35+00:00",
+      "as_of_utc": "2026-10-09T14:54:57+00:00",
       "n_messages": 30,
-      "n_bullish": 8,
+      "n_bullish": 10,
       "n_bearish": 3,
-      "n_tagged": 11,
-      "bull_pct": 0.727,
-      "bear_pct": 0.273,
+      "n_tagged": 13,
+      "bull_pct": 0.769,
+      "bear_pct": 0.231,
       "low_sample": false,
       "flags": []
     },
     "MSFT": {
       "ticker": "MSFT",
-      "as_of_utc": "2026-10-09T13:53:35+00:00",
+      "as_of_utc": "2026-10-09T14:54:57+00:00",
       "n_messages": 30,
-      "n_bullish": 12,
-      "n_bearish": 2,
-      "n_tagged": 14,
-      "bull_pct": 0.857,
-      "bear_pct": 0.143,
+      "n_bullish": 6,
+      "n_bearish": 12,
+      "n_tagged": 18,
+      "bull_pct": 0.333,
+      "bear_pct": 0.667,
       "low_sample": false,
       "flags": [
-        "extreme_bullish_contrarian_caution"
+        "sudden_bearish_flip"
       ]
     }
   },
   "flags": [
-    "MSFT: EXTREME BULLISH (86% of 14 tagged messages) - contrarian caution, do not chase."
+    "SPY: EXTREME BULLISH (91% of 11 tagged messages) - contrarian caution, do not chase.",
+    "QQQ: EXTREME BULLISH (94% of 16 tagged messages) - contrarian caution, do not chase.",
+    "MSFT: SUDDEN BEARISH FLIP (bearish share 14% -> 67% since 2026-10-09T13:53:35+00:00) - review any holding."
   ],
-  "failures": [],
+  "failures": [
+    {
+      "ticker": "NVDA",
+      "error": "500 Server Error: Internal Server Error for url: https://api.stocktwits.com/api/2/streams/symbol/NVDA.json"
+    }
+  ],
   "role": "Context layer - informs, never triggers trades alone."
 }
