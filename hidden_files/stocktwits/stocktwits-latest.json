@@ -1,28 +1,28 @@
 {
-  "as_of_utc": "2026-10-12T19:52:15+00:00",
+  "as_of_utc": "2026-10-12T20:55:07+00:00",
   "feed": "stocktwits_symbol_stream",
   "tickers": {
     "SPY": {
       "ticker": "SPY",
-      "as_of_utc": "2026-10-12T19:52:15+00:00",
+      "as_of_utc": "2026-10-12T20:55:07+00:00",
       "n_messages": 30,
-      "n_bullish": 7,
-      "n_bearish": 5,
-      "n_tagged": 12,
-      "bull_pct": 0.583,
-      "bear_pct": 0.417,
+      "n_bullish": 10,
+      "n_bearish": 3,
+      "n_tagged": 13,
+      "bull_pct": 0.769,
+      "bear_pct": 0.231,
       "low_sample": false,
       "flags": []
     },
     "QQQ": {
       "ticker": "QQQ",
-      "as_of_utc": "2026-10-12T19:52:15+00:00",
+      "as_of_utc": "2026-10-12T20:55:07+00:00",
       "n_messages": 30,
-      "n_bullish": 6,
-      "n_bearish": 0,
-      "n_tagged": 6,
-      "bull_pct": 1.0,
-      "bear_pct": 0.0,
+      "n_bullish": 11,
+      "n_bearish": 2,
+      "n_tagged": 13,
+      "bull_pct": 0.846,
+      "bear_pct": 0.154,
       "low_sample": false,
       "flags": [
         "extreme_bullish_contrarian_caution"
@@ -30,46 +30,43 @@
     },
     "NVDA": {
       "ticker": "NVDA",
-      "as_of_utc": "2026-10-12T19:52:15+00:00",
+      "as_of_utc": "2026-10-12T20:55:07+00:00",
       "n_messages": 30,
-      "n_bullish": 22,
-      "n_bearish": 1,
-      "n_tagged": 23,
-      "bull_pct": 0.957,
-      "bear_pct": 0.043,
+      "n_bullish": 8,
+      "n_bearish": 3,
+      "n_tagged": 11,
+      "bull_pct": 0.727,
+      "bear_pct": 0.273,
       "low_sample": false,
-      "flags": [
-        "extreme_bullish_contrarian_caution"
-      ]
+      "flags": []
     },
     "AAPL": {
       "ticker": "AAPL",
-      "as_of_utc": "2026-10-12T19:52:15+00:00",
+      "as_of_utc": "2026-10-12T20:55:07+00:00",
       "n_messages": 30,
-      "n_bullish": 4,
-      "n_bearish": 5,
-      "n_tagged": 9,
-      "bull_pct": 0.444,
-      "bear_pct": 0.556,
+      "n_bullish": 6,
+      "n_bearish": 7,
+      "n_tagged": 13,
+      "bull_pct": 0.462,
+      "bear_pct": 0.538,
       "low_sample": false,
       "flags": []
     },
     "MSFT": {
       "ticker": "MSFT",
-      "as_of_utc": "2026-10-12T19:52:15+00:00",
+      "as_of_utc": "2026-10-12T20:55:07+00:00",
       "n_messages": 30,
-      "n_bullish": 5,
+      "n_bullish": 6,
       "n_bearish": 3,
-      "n_tagged": 8,
-      "bull_pct": 0.625,
-      "bear_pct": 0.375,
+      "n_tagged": 9,
+      "bull_pct": 0.667,
+      "bear_pct": 0.333,
       "low_sample": false,
       "flags": []
     }
   },
   "flags": [
-    "QQQ: EXTREME BULLISH (100% of 6 tagged messages) - contrarian caution, do not chase.",
-    "NVDA: EXTREME BULLISH (96% of 23 tagged messages) - contrarian caution, do not chase."
+    "QQQ: EXTREME BULLISH (85% of 13 tagged messages) - contrarian caution, do not chase."
   ],
   "failures": [],
   "role": "Context layer - informs, never triggers trades alone."
