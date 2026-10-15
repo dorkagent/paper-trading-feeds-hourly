@@ -1,40 +1,40 @@
 {
-  "as_of_utc": "2026-10-15T22:58:25+00:00",
+  "as_of_utc": "2026-10-15T23:55:35+00:00",
   "feed": "stocktwits_symbol_stream",
   "tickers": {
     "SPY": {
       "ticker": "SPY",
-      "as_of_utc": "2026-10-15T22:58:25+00:00",
+      "as_of_utc": "2026-10-15T23:55:35+00:00",
       "n_messages": 30,
-      "n_bullish": 3,
-      "n_bearish": 7,
+      "n_bullish": 2,
+      "n_bearish": 8,
       "n_tagged": 10,
-      "bull_pct": 0.3,
-      "bear_pct": 0.7,
+      "bull_pct": 0.2,
+      "bear_pct": 0.8,
       "low_sample": false,
       "flags": []
     },
     "QQQ": {
       "ticker": "QQQ",
-      "as_of_utc": "2026-10-15T22:58:25+00:00",
+      "as_of_utc": "2026-10-15T23:55:35+00:00",
       "n_messages": 30,
-      "n_bullish": 4,
+      "n_bullish": 2,
       "n_bearish": 9,
-      "n_tagged": 13,
-      "bull_pct": 0.308,
-      "bear_pct": 0.692,
+      "n_tagged": 11,
+      "bull_pct": 0.182,
+      "bear_pct": 0.818,
       "low_sample": false,
       "flags": []
     },
     "NVDA": {
       "ticker": "NVDA",
-      "as_of_utc": "2026-10-15T22:58:25+00:00",
+      "as_of_utc": "2026-10-15T23:55:35+00:00",
       "n_messages": 30,
-      "n_bullish": 15,
+      "n_bullish": 12,
       "n_bearish": 1,
-      "n_tagged": 16,
-      "bull_pct": 0.938,
-      "bear_pct": 0.062,
+      "n_tagged": 13,
+      "bull_pct": 0.923,
+      "bear_pct": 0.077,
       "low_sample": false,
       "flags": [
         "extreme_bullish_contrarian_caution"
@@ -42,32 +42,38 @@
     },
     "AAPL": {
       "ticker": "AAPL",
-      "as_of_utc": "2026-10-15T22:58:25+00:00",
-      "n_messages": 30,
-      "n_bullish": 9,
-      "n_bearish": 5,
-      "n_tagged": 14,
-      "bull_pct": 0.643,
-      "bear_pct": 0.357,
-      "low_sample": false,
-      "flags": []
+      "as_of_utc": "2026-10-15T23:55:35+00:00",
+      "n_messages": 0,
+      "n_bullish": 0,
+      "n_bearish": 0,
+      "n_tagged": 0,
+      "bull_pct": null,
+      "bear_pct": null,
+      "low_sample": true,
+      "flags": [],
+      "error": "502 Server Error: Bad Gateway for url: https://api.stocktwits.com/api/2/streams/symbol/AAPL.json"
     },
     "MSFT": {
       "ticker": "MSFT",
-      "as_of_utc": "2026-10-15T22:58:25+00:00",
+      "as_of_utc": "2026-10-15T23:55:35+00:00",
       "n_messages": 30,
-      "n_bullish": 12,
+      "n_bullish": 10,
       "n_bearish": 4,
-      "n_tagged": 16,
-      "bull_pct": 0.75,
-      "bear_pct": 0.25,
+      "n_tagged": 14,
+      "bull_pct": 0.714,
+      "bear_pct": 0.286,
       "low_sample": false,
       "flags": []
     }
   },
   "flags": [
-    "NVDA: EXTREME BULLISH (94% of 16 tagged messages) - contrarian caution, do not chase."
+    "NVDA: EXTREME BULLISH (92% of 13 tagged messages) - contrarian caution, do not chase."
   ],
-  "failures": [],
+  "failures": [
+    {
+      "ticker": "AAPL",
+      "error": "502 Server Error: Bad Gateway for url: https://api.stocktwits.com/api/2/streams/symbol/AAPL.json"
+    }
+  ],
   "role": "Context layer - informs, never triggers trades alone."
 }
