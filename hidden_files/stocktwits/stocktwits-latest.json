@@ -1,40 +1,40 @@
 {
-  "as_of_utc": "2026-10-17T23:54:01+00:00",
+  "as_of_utc": "2026-10-18T01:12:25+00:00",
   "feed": "stocktwits_symbol_stream",
   "tickers": {
     "SPY": {
       "ticker": "SPY",
-      "as_of_utc": "2026-10-17T23:54:01+00:00",
+      "as_of_utc": "2026-10-18T01:12:25+00:00",
       "n_messages": 30,
-      "n_bullish": 3,
-      "n_bearish": 3,
-      "n_tagged": 6,
-      "bull_pct": 0.5,
-      "bear_pct": 0.5,
+      "n_bullish": 4,
+      "n_bearish": 5,
+      "n_tagged": 9,
+      "bull_pct": 0.444,
+      "bear_pct": 0.556,
       "low_sample": false,
       "flags": []
     },
     "QQQ": {
       "ticker": "QQQ",
-      "as_of_utc": "2026-10-17T23:54:01+00:00",
+      "as_of_utc": "2026-10-18T01:12:25+00:00",
       "n_messages": 30,
       "n_bullish": 4,
-      "n_bearish": 2,
-      "n_tagged": 6,
-      "bull_pct": 0.667,
-      "bear_pct": 0.333,
+      "n_bearish": 4,
+      "n_tagged": 8,
+      "bull_pct": 0.5,
+      "bear_pct": 0.5,
       "low_sample": false,
       "flags": []
     },
     "NVDA": {
       "ticker": "NVDA",
-      "as_of_utc": "2026-10-17T23:54:01+00:00",
+      "as_of_utc": "2026-10-18T01:12:25+00:00",
       "n_messages": 30,
-      "n_bullish": 22,
-      "n_bearish": 0,
-      "n_tagged": 22,
-      "bull_pct": 1.0,
-      "bear_pct": 0.0,
+      "n_bullish": 17,
+      "n_bearish": 1,
+      "n_tagged": 18,
+      "bull_pct": 0.944,
+      "bear_pct": 0.056,
       "low_sample": false,
       "flags": [
         "extreme_bullish_contrarian_caution"
@@ -42,7 +42,7 @@
     },
     "AAPL": {
       "ticker": "AAPL",
-      "as_of_utc": "2026-10-17T23:54:01+00:00",
+      "as_of_utc": "2026-10-18T01:12:25+00:00",
       "n_messages": 30,
       "n_bullish": 9,
       "n_bearish": 3,
@@ -54,7 +54,7 @@
     },
     "MSFT": {
       "ticker": "MSFT",
-      "as_of_utc": "2026-10-17T23:54:01+00:00",
+      "as_of_utc": "2026-10-18T01:12:25+00:00",
       "n_messages": 30,
       "n_bullish": 9,
       "n_bearish": 2,
@@ -68,7 +68,7 @@
     }
   },
   "flags": [
-    "NVDA: EXTREME BULLISH (100% of 22 tagged messages) - contrarian caution, do not chase.",
+    "NVDA: EXTREME BULLISH (94% of 18 tagged messages) - contrarian caution, do not chase.",
     "MSFT: EXTREME BULLISH (82% of 11 tagged messages) - contrarian caution, do not chase."
   ],
   "failures": [],
