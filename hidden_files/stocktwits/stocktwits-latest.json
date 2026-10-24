@@ -1,46 +1,48 @@
 {
-  "as_of_utc": "2026-10-24T17:58:17+00:00",
+  "as_of_utc": "2026-10-24T19:05:26+00:00",
   "feed": "stocktwits_symbol_stream",
   "tickers": {
     "SPY": {
       "ticker": "SPY",
-      "as_of_utc": "2026-10-24T17:58:17+00:00",
+      "as_of_utc": "2026-10-24T19:05:26+00:00",
       "n_messages": 30,
-      "n_bullish": 7,
-      "n_bearish": 9,
-      "n_tagged": 16,
-      "bull_pct": 0.438,
-      "bear_pct": 0.562,
+      "n_bullish": 6,
+      "n_bearish": 7,
+      "n_tagged": 13,
+      "bull_pct": 0.462,
+      "bear_pct": 0.538,
       "low_sample": false,
       "flags": []
     },
     "QQQ": {
       "ticker": "QQQ",
-      "as_of_utc": "2026-10-24T17:58:17+00:00",
+      "as_of_utc": "2026-10-24T19:05:26+00:00",
       "n_messages": 30,
-      "n_bullish": 6,
-      "n_bearish": 11,
-      "n_tagged": 17,
-      "bull_pct": 0.353,
-      "bear_pct": 0.647,
+      "n_bullish": 5,
+      "n_bearish": 1,
+      "n_tagged": 6,
+      "bull_pct": 0.833,
+      "bear_pct": 0.167,
       "low_sample": false,
-      "flags": []
+      "flags": [
+        "extreme_bullish_contrarian_caution"
+      ]
     },
     "NVDA": {
       "ticker": "NVDA",
-      "as_of_utc": "2026-10-24T17:58:17+00:00",
+      "as_of_utc": "2026-10-24T19:05:26+00:00",
       "n_messages": 30,
-      "n_bullish": 9,
-      "n_bearish": 4,
-      "n_tagged": 13,
-      "bull_pct": 0.692,
-      "bear_pct": 0.308,
+      "n_bullish": 10,
+      "n_bearish": 6,
+      "n_tagged": 16,
+      "bull_pct": 0.625,
+      "bear_pct": 0.375,
       "low_sample": false,
       "flags": []
     },
     "AAPL": {
       "ticker": "AAPL",
-      "as_of_utc": "2026-10-24T17:58:17+00:00",
+      "as_of_utc": "2026-10-24T19:05:26+00:00",
       "n_messages": 30,
       "n_bullish": 4,
       "n_bearish": 3,
@@ -52,7 +54,7 @@
     },
     "MSFT": {
       "ticker": "MSFT",
-      "as_of_utc": "2026-10-24T17:58:17+00:00",
+      "as_of_utc": "2026-10-24T19:05:26+00:00",
       "n_messages": 30,
       "n_bullish": 4,
       "n_bearish": 1,
@@ -66,6 +68,7 @@
     }
   },
   "flags": [
+    "QQQ: EXTREME BULLISH (83% of 6 tagged messages) - contrarian caution, do not chase.",
     "MSFT: EXTREME BULLISH (80% of 5 tagged messages) - contrarian caution, do not chase."
   ],
   "failures": [],
