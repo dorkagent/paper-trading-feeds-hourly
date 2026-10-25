@@ -1,22 +1,10 @@
 {
-  "as_of_utc": "2026-10-25T05:07:37+00:00",
+  "as_of_utc": "2026-10-25T06:04:06+00:00",
   "feed": "stocktwits_symbol_stream",
   "tickers": {
     "SPY": {
       "ticker": "SPY",
-      "as_of_utc": "2026-10-25T05:07:37+00:00",
-      "n_messages": 30,
-      "n_bullish": 8,
-      "n_bearish": 3,
-      "n_tagged": 11,
-      "bull_pct": 0.727,
-      "bear_pct": 0.273,
-      "low_sample": false,
-      "flags": []
-    },
-    "QQQ": {
-      "ticker": "QQQ",
-      "as_of_utc": "2026-10-25T05:07:37+00:00",
+      "as_of_utc": "2026-10-25T06:04:06+00:00",
       "n_messages": 30,
       "n_bullish": 6,
       "n_bearish": 4,
@@ -26,9 +14,21 @@
       "low_sample": false,
       "flags": []
     },
+    "QQQ": {
+      "ticker": "QQQ",
+      "as_of_utc": "2026-10-25T06:04:06+00:00",
+      "n_messages": 30,
+      "n_bullish": 8,
+      "n_bearish": 3,
+      "n_tagged": 11,
+      "bull_pct": 0.727,
+      "bear_pct": 0.273,
+      "low_sample": false,
+      "flags": []
+    },
     "NVDA": {
       "ticker": "NVDA",
-      "as_of_utc": "2026-10-25T05:07:37+00:00",
+      "as_of_utc": "2026-10-25T06:04:06+00:00",
       "n_messages": 30,
       "n_bullish": 5,
       "n_bearish": 2,
@@ -40,23 +40,23 @@
     },
     "AAPL": {
       "ticker": "AAPL",
-      "as_of_utc": "2026-10-25T05:07:37+00:00",
+      "as_of_utc": "2026-10-25T06:04:06+00:00",
       "n_messages": 30,
-      "n_bullish": 1,
+      "n_bullish": 2,
       "n_bearish": 4,
-      "n_tagged": 5,
-      "bull_pct": 0.2,
-      "bear_pct": 0.8,
+      "n_tagged": 6,
+      "bull_pct": 0.333,
+      "bear_pct": 0.667,
       "low_sample": false,
       "flags": []
     },
     "MSFT": {
       "ticker": "MSFT",
-      "as_of_utc": "2026-10-25T05:07:37+00:00",
+      "as_of_utc": "2026-10-25T06:04:06+00:00",
       "n_messages": 30,
-      "n_bullish": 6,
+      "n_bullish": 7,
       "n_bearish": 0,
-      "n_tagged": 6,
+      "n_tagged": 7,
       "bull_pct": 1.0,
       "bear_pct": 0.0,
       "low_sample": false,
@@ -66,7 +66,7 @@
     }
   },
   "flags": [
-    "MSFT: EXTREME BULLISH (100% of 6 tagged messages) - contrarian caution, do not chase."
+    "MSFT: EXTREME BULLISH (100% of 7 tagged messages) - contrarian caution, do not chase."
   ],
   "failures": [],
   "role": "Context layer - informs, never triggers trades alone."
