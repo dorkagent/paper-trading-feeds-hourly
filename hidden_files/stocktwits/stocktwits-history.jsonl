@@ -2671,3 +2671,8 @@
 {"as_of_utc": "2026-11-14T23:20:20+00:00", "ticker": "NVDA", "n_messages": 30, "n_bullish": 5, "n_bearish": 0, "n_tagged": 5, "bull_pct": 1.0, "bear_pct": 0.0, "low_sample": false}
 {"as_of_utc": "2026-11-14T23:20:20+00:00", "ticker": "AAPL", "n_messages": 30, "n_bullish": 8, "n_bearish": 3, "n_tagged": 11, "bull_pct": 0.727, "bear_pct": 0.273, "low_sample": false}
 {"as_of_utc": "2026-11-14T23:20:20+00:00", "ticker": "MSFT", "n_messages": 30, "n_bullish": 4, "n_bearish": 0, "n_tagged": 4, "bull_pct": null, "bear_pct": null, "low_sample": true}
+{"as_of_utc": "2026-11-15T03:01:52+00:00", "ticker": "SPY", "n_messages": 30, "n_bullish": 5, "n_bearish": 7, "n_tagged": 12, "bull_pct": 0.417, "bear_pct": 0.583, "low_sample": false}
+{"as_of_utc": "2026-11-15T03:01:52+00:00", "ticker": "QQQ", "n_messages": 30, "n_bullish": 9, "n_bearish": 1, "n_tagged": 10, "bull_pct": 0.9, "bear_pct": 0.1, "low_sample": false}
+{"as_of_utc": "2026-11-15T03:01:52+00:00", "ticker": "NVDA", "n_messages": 30, "n_bullish": 7, "n_bearish": 7, "n_tagged": 14, "bull_pct": 0.5, "bear_pct": 0.5, "low_sample": false}
+{"as_of_utc": "2026-11-15T03:01:52+00:00", "ticker": "AAPL", "n_messages": 30, "n_bullish": 5, "n_bearish": 5, "n_tagged": 10, "bull_pct": 0.5, "bear_pct": 0.5, "low_sample": false}
+{"as_of_utc": "2026-11-15T03:01:52+00:00", "ticker": "MSFT", "n_messages": 30, "n_bullish": 3, "n_bearish": 1, "n_tagged": 4, "bull_pct": null, "bear_pct": null, "low_sample": true}
